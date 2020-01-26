@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Text Analyser</title>
+    </head>
+    <body>
+        <h3>Welcome to Text Analyser</h3>
+        <form action='/analysed' method='get'>
+            <textarea style="margin: 0px; width: 910px; height: 198px;" name="analyse_text"></textarea></br>
+            <input type="checkbox" name="rmpunc">Remove Punctuation</input></br>
+            <input type="checkbox" name="rmnline">Remove Newline</input></br>
+            <input type="checkbox" name="rmexspac">Remove Extra Space</input></br>
+            <input type="checkbox" name="rmnonalpha">Remove Non alphabets</input></br>
+            <input type="checkbox" name="uppercase">UPPER CASE</input></br>
+            <button type="submit">Analyse Me</button>
+        </form>
+    </body>
+</html>
